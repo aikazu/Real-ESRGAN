@@ -55,8 +55,5 @@ gr.Interface(
     gr.outputs.Image(type="pil", label="Output"),
     title=title,
     description=description,
-    article=article,
-    examples=[
-        ['bear.jpg', 'base'],
-        ['anime.png', 'anime']
+    article=article
     ]).launch()
